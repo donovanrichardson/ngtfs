@@ -1,0 +1,15 @@
+{
+  "agencies": [
+    {
+      "agency_key": "mbta",
+      "url": "https://transitfeeds.com/p/mbta/64/latest/download",
+      "exclude": [
+        "shapes"
+      ]
+    }
+  ],
+  "csvOptions": {
+    "skip_lines_with_error": true
+  },
+  "sqlitePath": "./dev/sqlite/gtfs.db"
+}
